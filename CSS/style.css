@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+body{
+  background: #413B3B;
+}
+
+.nombre{
+color: lightblue;
+font-family: 'Secular One', sans-serif;
+font-style: italic;
+font-size: 35px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img{
+display: block;
+margin: auto;
+  height: 140px;
+  width: 130px;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 7px;
+}
+.content{
+  color: black;
+  column-count: 2;
+  column-gap: 25px;
+  column-rule: 1px solid;
+}
+
+.box{
+  background: white;
+  padding: 30px;
+  margin: 0 250px;
+  height: 700px;
+  overflow: hidden;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 10px;
+}
+
+.acad{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  color: lightblue;
+  font-size: 30px;
+}
+
+.hab{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  color: lightblue;
+  font-size: 30px;
+}
+
+.exp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lobster', cursive;
+  color: lightblue;
+  font-size: 30px;
+}
+
+ul{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 16px;
+}
